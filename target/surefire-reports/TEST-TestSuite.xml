@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="42.159" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="46.088" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="D:\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire41705642823102720\surefirebooter17531789298787209865.jar C:\Users\Lenovo\AppData\Local\Temp\surefire41705642823102720 2025-04-26T14-54-09_366-jvmRun1 surefire1548715724957067390tmp surefire_011549878201812344279tmp"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire10101151946704526059\surefirebooter491978368625614200.jar C:\Users\Lenovo\AppData\Local\Temp\surefire10101151946704526059 2025-04-26T15-35-41_493-jvmRun1 surefire15285258476672800986tmp surefire_02741105877446499508tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="F:\19_Testing_QualityAssurance\AutomationWorkspace\CloudBeesProject\target\test-classes;F:\19_Testing_QualityAssurance\AutomationWorkspace\CloudBeesProject\target\classes;C:\Users\Lenovo\.m2\repository\com\microsoft\playwright\playwright\1.17.1\playwright-1.17.1.jar;C:\Users\Lenovo\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Lenovo\.m2\repository\com\microsoft\playwright\driver\1.17.1\driver-1.17.1.jar;C:\Users\Lenovo\.m2\repository\com\microsoft\playwright\driver-bundle\1.17.1\driver-bundle-1.17.1.jar;C:\Users\Lenovo\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\Lenovo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Lenovo\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-testng\2.21.0\allure-testng-2.21.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-java-commons\2.21.0\allure-java-commons-2.21.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-model\2.21.0\allure-model-2.21.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-test-filter\2.21.0\allure-test-filter-2.21.0.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Lenovo\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\Lenovo\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;"/>
     <property name="allure.results.directory" value="F:\19_Testing_QualityAssurance\AutomationWorkspace\CloudBeesProject\target/allure-results"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire41705642823102720\surefirebooter17531789298787209865.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire10101151946704526059\surefirebooter491978368625614200.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16.0.2+7-67"/>
@@ -56,55 +56,55 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="verifyHomePage" classname="com.org.cloudbees.CloudbeesHomePageTest" time="27.52">
-    <system-out><![CDATA[14:54:11.206 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
-14:54:11.212 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
-14:54:11.212 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
-14:54:26.908 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 1: Navigated to https://www.cloudbees.com/
-14:54:27.454 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 2: Clicked on 'Products'
-14:54:32.331 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 2: Clicked on 'CloudBees CD/RO' under Products
-14:54:32.506 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 3: Verified that Cost Savings ($2m) is visible
-14:54:33.191 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 4: Clicked on 'Auditors / Security'
-14:54:33.323 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 5: Verified that text under Release Governance is visible
-14:54:34.392 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 6: Clicked on 'Resources'
-14:54:35.614 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 6: Clicking Documentation openes a new tab
-14:54:36.758 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 7: Waited for the new tab to load
-14:54:37.010 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 8: On  Click in the text field 'Search all CloudBees Resources' new page is visible'
-14:54:37.086 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 9: Filled search query 'Installation'
-14:54:37.126 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 10: Pressed Enter to initiate search
-14:54:38.385 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 11: Clicked on page 2 of search results
-14:54:38.528 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 12: Clicked on page 3 of search results
+  <testcase name="verifyHomePage" classname="com.org.cloudbees.CloudbeesHomePageTest" time="30.501">
+    <system-out><![CDATA[15:35:43.338 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+15:35:43.343 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+15:35:43.344 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+15:35:59.933 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 1: Navigated to https://www.cloudbees.com/
+15:36:02.368 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 2: Clicked on 'Products'
+15:36:07.152 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 2: Clicked on 'CloudBees CD/RO' under Products
+15:36:07.329 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 3: Verified that Cost Savings ($2m) is visible
+15:36:08.118 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 4: Clicked on 'Auditors / Security'
+15:36:08.200 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 5: Verified that text under Release Governance is visible
+15:36:09.404 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 6: Clicked on 'Resources'
+15:36:10.704 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 6: Clicking Documentation openes a new tab
+15:36:11.952 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 7: Waited for the new tab to load
+15:36:12.158 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 8: On  Click in the text field 'Search all CloudBees Resources' new page is visible'
+15:36:12.292 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 9: Filled search query 'Installation'
+15:36:12.324 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 10: Pressed Enter to initiate search
+15:36:13.513 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 11: Clicked on page 2 of search results
+15:36:13.586 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 12: Clicked on page 3 of search results
 ]]></system-out>
   </testcase>
-  <testcase name="testAddNewFileToRepo" classname="com.org.cloudbees.GitRepoTestingTest" time="6.704">
-    <system-out><![CDATA[14:54:39.055 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Cloning the repo from https://github.com/vivekblrin/CloudbeesGitRepo.git
-Cloning into 'F:\19_Testing_QualityAssurance\AutomationWorkspace\CloudBeesProject\cloned-c03a8976-ce9e-4f08-b8a3-cd1c7774c467'...
-14:54:40.900 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Setting Git identity
-14:54:41.019 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Creating a new file: newfile-6f156076-9221-4db7-b2b8-19e005d17dc6.txt
-14:54:41.020 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Adding file to Git: newfile-6f156076-9221-4db7-b2b8-19e005d17dc6.txt
-14:54:41.158 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Committing file with message: Add new file via automation
-[main 4e6afe7] Add new file via automation
+  <testcase name="testAddNewFileToRepo" classname="com.org.cloudbees.GitRepoTestingTest" time="7.924">
+    <system-out><![CDATA[15:36:14.090 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Cloning the repo from https://github.com/vivekblrin/CloudbeesGitRepo.git
+Cloning into 'F:\19_Testing_QualityAssurance\AutomationWorkspace\CloudBeesProject\cloned-564453c8-c1bd-41df-8ee5-82f560c54509'...
+15:36:15.982 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Setting Git identity
+15:36:16.100 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Creating a new file: newfile-ded93fd2-44e1-4ba6-8b62-41419065094a.txt
+15:36:16.101 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Adding file to Git: newfile-ded93fd2-44e1-4ba6-8b62-41419065094a.txt
+15:36:16.227 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Committing file with message: Add new file via automation
+[main 286825b] Add new file via automation
  1 file changed, 2 insertions(+)
- create mode 100644 newfile-6f156076-9221-4db7-b2b8-19e005d17dc6.txt
-14:54:41.351 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Pushing file to remote repository
+ create mode 100644 newfile-ded93fd2-44e1-4ba6-8b62-41419065094a.txt
+15:36:16.448 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Pushing file to remote repository
 To https://github.com/vivekblrin/CloudbeesGitRepo.git
-   8e6149e..4e6afe7  main -> main
-14:54:45.743 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Deleted cloned repository directory: F:\19_Testing_QualityAssurance\AutomationWorkspace\CloudBeesProject\cloned-c03a8976-ce9e-4f08-b8a3-cd1c7774c467
+   dff46e8..286825b  main -> main
+15:36:21.998 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Deleted cloned repository directory: F:\19_Testing_QualityAssurance\AutomationWorkspace\CloudBeesProject\cloned-564453c8-c1bd-41df-8ee5-82f560c54509
 ]]></system-out>
   </testcase>
-  <testcase name="testModifyExistingFileInRepo" classname="com.org.cloudbees.GitRepoTestingTest" time="6.785">
-    <system-out><![CDATA[14:54:45.757 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Cloning the repository from https://github.com/vivekblrin/CloudbeesGitRepo.git
-Cloning into 'F:\19_Testing_QualityAssurance\AutomationWorkspace\CloudBeesProject\cloned-cb8a5330-b926-40d1-8e26-62f946e90691'...
-14:54:47.574 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Setting Git identity
-14:54:47.692 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Appending content to file: README.md
-14:54:47.694 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Adding file to Git: README.md
-14:54:47.786 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Committing changes with message: Append to existing file via automation
-[main dff46e8] Append to existing file via automation
+  <testcase name="testModifyExistingFileInRepo" classname="com.org.cloudbees.GitRepoTestingTest" time="6.489">
+    <system-out><![CDATA[15:36:22.016 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Cloning the repository from https://github.com/vivekblrin/CloudbeesGitRepo.git
+Cloning into 'F:\19_Testing_QualityAssurance\AutomationWorkspace\CloudBeesProject\cloned-35456910-b16a-4e1f-9434-d564e18adbd8'...
+15:36:23.662 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Setting Git identity
+15:36:23.776 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Appending content to file: README.md
+15:36:23.777 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Adding file to Git: README.md
+15:36:23.878 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Committing changes with message: Append to existing file via automation
+[main 2405dae] Append to existing file via automation
  1 file changed, 2 insertions(+), 1 deletion(-)
-14:54:48.045 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Pushing changes to remote repository
+15:36:24.098 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Pushing changes to remote repository
 To https://github.com/vivekblrin/CloudbeesGitRepo.git
-   4e6afe7..dff46e8  main -> main
-14:54:52.532 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Deleted cloned repository directory: F:\19_Testing_QualityAssurance\AutomationWorkspace\CloudBeesProject\cloned-cb8a5330-b926-40d1-8e26-62f946e90691
+   286825b..2405dae  main -> main
+15:36:28.489 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Deleted cloned repository directory: F:\19_Testing_QualityAssurance\AutomationWorkspace\CloudBeesProject\cloned-35456910-b16a-4e1f-9434-d564e18adbd8
 ]]></system-out>
   </testcase>
 </testsuite>

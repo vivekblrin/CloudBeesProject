@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-26T14:54:11 IST" name="Cloudbees-Allure Suite" finished-at="2025-04-26T14:54:52 IST" duration-ms="41083">
+  <suite started-at="2025-04-26T15:35:43 IST" name="Cloudbees-Allure Suite" finished-at="2025-04-26T15:36:28 IST" duration-ms="44964">
     <groups>
     </groups>
-    <test started-at="2025-04-26T14:54:11 IST" name="Tests" finished-at="2025-04-26T14:54:52 IST" duration-ms="41083">
+    <test started-at="2025-04-26T15:35:43 IST" name="Tests" finished-at="2025-04-26T15:36:28 IST" duration-ms="44964">
       <class name="com.org.cloudbees.CloudbeesHomePageTest">
-        <test-method signature="verifyHomePage()[pri:0, instance:com.org.cloudbees.CloudbeesHomePageTest@19553973]" started-at="2025-04-26T14:54:11 IST" name="verifyHomePage" finished-at="2025-04-26T14:54:38 IST" duration-ms="27462" status="PASS">
+        <test-method signature="verifyHomePage()[pri:0, instance:com.org.cloudbees.CloudbeesHomePageTest@19553973]" started-at="2025-04-26T15:35:43 IST" name="verifyHomePage" finished-at="2025-04-26T15:36:13 IST" duration-ms="30419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePage -->
       </class> <!-- com.org.cloudbees.CloudbeesHomePageTest -->
       <class name="com.org.cloudbees.GitRepoTestingTest">
-        <test-method signature="testAddNewFileToRepo()[pri:0, instance:com.org.cloudbees.GitRepoTestingTest@7096b474]" started-at="2025-04-26T14:54:39 IST" name="testAddNewFileToRepo" description="Clone repo, add file, commit and push" finished-at="2025-04-26T14:54:45 IST" duration-ms="6695" status="PASS">
+        <test-method signature="testAddNewFileToRepo()[pri:0, instance:com.org.cloudbees.GitRepoTestingTest@7096b474]" started-at="2025-04-26T15:36:14 IST" name="testAddNewFileToRepo" description="Clone repo, add file, commit and push" finished-at="2025-04-26T15:36:21 IST" duration-ms="7918" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddNewFileToRepo -->
-        <test-method signature="testModifyExistingFileInRepo()[pri:0, instance:com.org.cloudbees.GitRepoTestingTest@7096b474]" started-at="2025-04-26T14:54:45 IST" name="testModifyExistingFileInRepo" description="Clone repo, modify existing file, commit and push" finished-at="2025-04-26T14:54:52 IST" duration-ms="6781" status="PASS">
+        <test-method signature="testModifyExistingFileInRepo()[pri:0, instance:com.org.cloudbees.GitRepoTestingTest@7096b474]" started-at="2025-04-26T15:36:22 IST" name="testModifyExistingFileInRepo" description="Clone repo, modify existing file, commit and push" finished-at="2025-04-26T15:36:28 IST" duration-ms="6483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testModifyExistingFileInRepo -->
