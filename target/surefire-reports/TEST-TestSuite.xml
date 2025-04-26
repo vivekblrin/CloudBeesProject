@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="42.159" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="F:\19_Testing_QualityAssurance\AutomationWorkspace\CloudBeesProject\target\test-classes;F:\19_Testing_QualityAssurance\AutomationWorkspace\CloudBeesProject\target\classes;C:\Users\Lenovo\.m2\repository\com\microsoft\playwright\playwright\1.17.1\playwright-1.17.1.jar;C:\Users\Lenovo\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Lenovo\.m2\repository\com\microsoft\playwright\driver\1.17.1\driver-1.17.1.jar;C:\Users\Lenovo\.m2\repository\com\microsoft\playwright\driver-bundle\1.17.1\driver-bundle-1.17.1.jar;C:\Users\Lenovo\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\Lenovo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Lenovo\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-testng\2.21.0\allure-testng-2.21.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-java-commons\2.21.0\allure-java-commons-2.21.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-model\2.21.0\allure-model-2.21.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-test-filter\2.21.0\allure-test-filter-2.21.0.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Lenovo\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\Lenovo\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="D:\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire41705642823102720\surefirebooter17531789298787209865.jar C:\Users\Lenovo\AppData\Local\Temp\surefire41705642823102720 2025-04-26T14-54-09_366-jvmRun1 surefire1548715724957067390tmp surefire_011549878201812344279tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="F:\19_Testing_QualityAssurance\AutomationWorkspace\CloudBeesProject\target\test-classes;F:\19_Testing_QualityAssurance\AutomationWorkspace\CloudBeesProject\target\classes;C:\Users\Lenovo\.m2\repository\com\microsoft\playwright\playwright\1.17.1\playwright-1.17.1.jar;C:\Users\Lenovo\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Lenovo\.m2\repository\com\microsoft\playwright\driver\1.17.1\driver-1.17.1.jar;C:\Users\Lenovo\.m2\repository\com\microsoft\playwright\driver-bundle\1.17.1\driver-bundle-1.17.1.jar;C:\Users\Lenovo\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\Lenovo\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Lenovo\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-testng\2.21.0\allure-testng-2.21.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-java-commons\2.21.0\allure-java-commons-2.21.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-model\2.21.0\allure-model-2.21.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-test-filter\2.21.0\allure-test-filter-2.21.0.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Lenovo\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\Lenovo\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;"/>
+    <property name="allure.results.directory" value="F:\19_Testing_QualityAssurance\AutomationWorkspace\CloudBeesProject\target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Lenovo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="D:\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="F:\19_Testing_QualityAssurance\AutomationWorkspace\CloudBeesProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire41705642823102720\surefirebooter17531789298787209865.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.2+7-67"/>
+    <property name="user.name" value="Lenovo"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Lenovo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Lenovo\AppData\Local\Temp\"/>
+    <property name="java.version" value="16.0.2"/>
+    <property name="user.dir" value="F:\19_Testing_QualityAssurance\AutomationWorkspace\CloudBeesProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin/server;D:/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\libnvvp;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\ProgramData\miniconda3\Scripts;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.3.0\;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\Lenovo\scoop\shims;C:\Users\Lenovo\AppData\Local\Programs\Python\Launcher\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;D:\apache-maven-3.9.8\bin;;C:\Users\Lenovo\AppData\Local\Programs\Ollama;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Lenovo\.lmstudio\bin;C:\Users\Lenovo\AppData\Roaming\npm;C:\Users\Lenovo\AppData\Local\Pandoc\;D:\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.2+7-67"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="verifyHomePage" classname="com.org.cloudbees.CloudbeesHomePageTest" time="27.52">
+    <system-out><![CDATA[14:54:11.206 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+14:54:11.212 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+14:54:11.212 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+14:54:26.908 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 1: Navigated to https://www.cloudbees.com/
+14:54:27.454 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 2: Clicked on 'Products'
+14:54:32.331 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 2: Clicked on 'CloudBees CD/RO' under Products
+14:54:32.506 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 3: Verified that Cost Savings ($2m) is visible
+14:54:33.191 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 4: Clicked on 'Auditors / Security'
+14:54:33.323 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 5: Verified that text under Release Governance is visible
+14:54:34.392 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 6: Clicked on 'Resources'
+14:54:35.614 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 6: Clicking Documentation openes a new tab
+14:54:36.758 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 7: Waited for the new tab to load
+14:54:37.010 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 8: On  Click in the text field 'Search all CloudBees Resources' new page is visible'
+14:54:37.086 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 9: Filled search query 'Installation'
+14:54:37.126 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 10: Pressed Enter to initiate search
+14:54:38.385 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 11: Clicked on page 2 of search results
+14:54:38.528 [main] INFO  c.o.cloudbees.CloudbeesHomePageTest - Step 12: Clicked on page 3 of search results
+]]></system-out>
+  </testcase>
+  <testcase name="testAddNewFileToRepo" classname="com.org.cloudbees.GitRepoTestingTest" time="6.704">
+    <system-out><![CDATA[14:54:39.055 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Cloning the repo from https://github.com/vivekblrin/CloudbeesGitRepo.git
+Cloning into 'F:\19_Testing_QualityAssurance\AutomationWorkspace\CloudBeesProject\cloned-c03a8976-ce9e-4f08-b8a3-cd1c7774c467'...
+14:54:40.900 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Setting Git identity
+14:54:41.019 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Creating a new file: newfile-6f156076-9221-4db7-b2b8-19e005d17dc6.txt
+14:54:41.020 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Adding file to Git: newfile-6f156076-9221-4db7-b2b8-19e005d17dc6.txt
+14:54:41.158 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Committing file with message: Add new file via automation
+[main 4e6afe7] Add new file via automation
+ 1 file changed, 2 insertions(+)
+ create mode 100644 newfile-6f156076-9221-4db7-b2b8-19e005d17dc6.txt
+14:54:41.351 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Pushing file to remote repository
+To https://github.com/vivekblrin/CloudbeesGitRepo.git
+   8e6149e..4e6afe7  main -> main
+14:54:45.743 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Deleted cloned repository directory: F:\19_Testing_QualityAssurance\AutomationWorkspace\CloudBeesProject\cloned-c03a8976-ce9e-4f08-b8a3-cd1c7774c467
+]]></system-out>
+  </testcase>
+  <testcase name="testModifyExistingFileInRepo" classname="com.org.cloudbees.GitRepoTestingTest" time="6.785">
+    <system-out><![CDATA[14:54:45.757 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Cloning the repository from https://github.com/vivekblrin/CloudbeesGitRepo.git
+Cloning into 'F:\19_Testing_QualityAssurance\AutomationWorkspace\CloudBeesProject\cloned-cb8a5330-b926-40d1-8e26-62f946e90691'...
+14:54:47.574 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Setting Git identity
+14:54:47.692 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Appending content to file: README.md
+14:54:47.694 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Adding file to Git: README.md
+14:54:47.786 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Committing changes with message: Append to existing file via automation
+[main dff46e8] Append to existing file via automation
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+14:54:48.045 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Pushing changes to remote repository
+To https://github.com/vivekblrin/CloudbeesGitRepo.git
+   4e6afe7..dff46e8  main -> main
+14:54:52.532 [main] INFO  c.org.cloudbees.GitRepoTestingTest - Deleted cloned repository directory: F:\19_Testing_QualityAssurance\AutomationWorkspace\CloudBeesProject\cloned-cb8a5330-b926-40d1-8e26-62f946e90691
+]]></system-out>
+  </testcase>
+</testsuite>
