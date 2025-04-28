@@ -42,7 +42,9 @@ CloudBees/
    ```
 
 2. **Install Dependencies**  
+   ```bash
    Maven will automatically handle it through `pom.xml`.
+   ```
 
 3. **Run the Tests**  
    ```bash
