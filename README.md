@@ -43,19 +43,14 @@ CloudBees/
 
 2. **Install Dependencies**  
    Maven will automatically handle it through `pom.xml`.
-
-3. **Install Browsers for Playwright**  
-   Run once:
-   ```bash
-   mvn exec:java -e -Dexec.mainClass=com.microsoft.playwright.CLI -Dexec.args="install"
    ```
 
-4. **Run the Tests**  
+3. **Run the Tests**  
    ```bash
    mvn clean test
    ```
 
-5. **Generate Allure Report**  
+4. **Generate Allure Report**  
    ```bash
    allure serve target/allure-results
    ```
